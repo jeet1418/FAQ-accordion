@@ -4,27 +4,61 @@
 
 body{
     position: relative;
+    overflow-x: hidden;
+    background-color: hsl(275, 100%, 97%);
 }
+
 
 .container{
     position: absolute;
-    height: 190%;
-    width: 38%;
+    height: 200%;
+    width: 30%;
     top: 100px;
-    left: 31%;
-    background-color: aqua;
+    left: 35%;
+    background-color: hsl(0, 0%, 100%);
     border-radius: 10px;
-    padding: 30px 20px;
+    padding: 30px 30px;
+    cursor: default;
 
 }
 
 .header{
     display: flex;
     justify-content: start;
-    padding: 20px 10px;
-    
+    padding-bottom: 30px;
+}
+
+
+.faq{
+    padding-bottom: 40px;
 }
 
 .star-img{
-    padding-right: 10px;
+    padding-right: 20px;
+}
+
+.qstn{
+    display: flex;
+    justify-content: space-between;
+    color: hsl(292, 42%, 14%);
+    font-size: 20px;
+    padding-bottom: 20px;
+    cursor: pointer;
+
+}
+
+.qstn:hover{
+    color: purple;
+}
+
+.ans{
+    color: hsl(292, 16%, 49%);
+    font-size: 13px;
+    display: none;
+}
+
+.ans.active{
+    color: hsl(292, 16%, 49%);
+    font-size: 13px;
+    display: contents;
 }
