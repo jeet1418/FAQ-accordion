@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+}
+
+body{
+    position: relative;
+}
+
+.container{
+    position: absolute;
+    height: 190%;
+    width: 38%;
+    top: 100px;
+    left: 31%;
+    background-color: aqua;
+    border-radius: 10px;
+    padding: 30px 20px;
+
+}
+
+.header{
+    display: flex;
+    justify-content: start;
+    padding: 20px 10px;
+    
+}
+
+.star-img{
+    padding-right: 10px;
+}
